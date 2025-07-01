@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://docs.overview.ai/docs/en/user-manual",
+    "title": "English",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/es-mx/manual-usuario",
+    "title": "Spanish (Mexico)",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/zh-cn/user-manual",
+    "title": "Chinese (Simplified, People's Republic of China)",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/start-here",
+    "title": "Start Here7 Articlesin this category",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/hardware-setup",
+    "title": "Hardware Setup4 Articlesin this category",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/how-to-guides",
+    "title": "Walkthroughs14 Articlesin this category",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/software-setup",
+    "title": "Software Setup15 Articlesin this category",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/ethernet",
+    "title": "PLC Communication5 Articlesin this category",
+    "source_page": "https://docs.overview.ai/docs"
+  },
+  {
+    "url": "https://docs.overview.ai/docs/robots",
+    "title": "Robots",
+    "source_page": "https://docs.overview.ai/docs"
+  }
+]
