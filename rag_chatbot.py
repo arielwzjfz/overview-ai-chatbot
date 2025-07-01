@@ -251,13 +251,108 @@ Answer:"""
 
 def main():
     st.set_page_config(
-        page_title="Overview AI Documentation Chatbot",
-        page_icon="🤖",
-        layout="wide"
+        page_title="Overview AI Documentation Assistant",
+        page_icon="🔍",
+        layout="wide",
+        initial_sidebar_state="expanded"
     )
     
-    st.title("🤖 Overview AI Documentation Assistant")
-    st.markdown("Ask questions about Overview AI products and get instant answers from the documentation!")
+    # Custom CSS for better styling
+    st.markdown("""
+    <style>
+    /* Set white background for the entire app */
+    .main {
+        background-color: white !important;
+    }
+    
+    /* White background for the main content area */
+    .block-container {
+        background-color: white !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    /* White background for the sidebar */
+    .css-1d391kg, .css-1lcbmhc {
+        background-color: white !important;
+    }
+    
+    /* White background for the entire page */
+    .stApp {
+        background-color: white !important;
+    }
+    
+    /* Clean header styling */
+    .main-header {
+        background: white;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .logo-container {
+        text-align: center;
+    }
+    
+    /* Ensure text is readable on white background */
+    .stMarkdown {
+        color: #262730;
+    }
+    
+    /* Style the chat messages for better contrast */
+    .stChatMessage {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 1rem;
+        margin: 0.5rem 0;
+    }
+    
+    /* Style the input area */
+    .stTextInput {
+        background-color: white;
+    }
+    
+    /* Style the expander */
+    .streamlit-expanderHeader {
+        background-color: #f8f9fa;
+        border: 1px solid #e0e0e0;
+    }
+    
+    /* Style info boxes */
+    .stAlert {
+        background-color: #f8f9fa;
+        border: 1px solid #e0e0e0;
+    }
+    
+    /* Remove any default backgrounds */
+    div[data-testid="stVerticalBlock"] {
+        background-color: white !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Header with logo and title
+    st.markdown('<div class="main-header">', unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    
+    with col1:
+        # Display Overview AI logo
+        try:
+            st.image("overview_logo.png", width=150)
+        except:
+            st.markdown("### Overview AI")
+    
+    with col2:
+        st.title("🤖 Documentation Assistant")
+        st.markdown("*Powered by AI - Your intelligent guide to Overview AI products*")
+    
+    with col3:
+        st.write("")  # Empty space for balance
+    
+    st.markdown('</div>', unsafe_allow_html=True)
     
     # Language support info
     st.info("🌍 **Multilingual Support**: You can ask questions in English, Chinese (中文), or Spanish (Español). The chatbot will respond in the same language!")
@@ -322,6 +417,13 @@ def main():
     
     # Sidebar with information
     with st.sidebar:
+        # Sidebar header with logo
+        try:
+            st.image("overview_logo.png", width=100)
+        except:
+            st.markdown("### Overview AI")
+        
+        st.markdown("---")
         st.header("ℹ️ About")
         st.markdown("""
         This chatbot uses AI to search through Overview AI documentation and provide accurate answers to your questions.
