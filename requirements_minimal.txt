@@ -3,4 +3,5 @@ chromadb==0.4.22
 sentence-transformers>=2.2.0
 openai>=1.0.0
 PyYAML>=6.0
-protobuf==4.25.3 
+protobuf==4.25.3
+numpy<2.0.0 
