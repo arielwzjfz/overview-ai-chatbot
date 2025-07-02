@@ -679,9 +679,23 @@ def main():
         </div>
         """, unsafe_allow_html=True)
     else:
-        st.markdown("""
+        # Multilingual documentation reference text
+        if current_lang == "Chinese":
+            doc_text_before = "📖 如需详细解释和可视化说明，请查看"
+            link_text = "Overview官方文档"
+            doc_text_after = "或点击'查看来源'查找相关文章。"
+        elif current_lang == "Spanish":
+            doc_text_before = "📖 Para explicaciones detalladas con visualizaciones, consulte la "
+            link_text = "documentación oficial de Overview"
+            doc_text_after = " o haga clic en 'Ver Fuentes' para el artículo relacionado."
+        else:  # English
+            doc_text_before = "📖 For detailed explanations with visuals, see "
+            link_text = "Overview's official docs"
+            doc_text_after = " or click 'View Sources' for the related article."
+        
+        st.markdown(f"""
         <div style="background-color: rgba(124, 58, 237, 0.1); border-left: 4px solid #7c3aed; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
-            <p style="margin: 0; color: #7c3aed; font-weight: 500;">📖 For more detailed and accurate explanation with image illustration, refer to <a href="https://docs.overview.ai/docs" target="_blank" style="color: #7c3aed; text-decoration: underline; font-weight: bold;">Overview's official documentation</a>.</p>
+            <p style="margin: 0; color: #7c3aed; font-weight: 500;">{doc_text_before}<a href="https://docs.overview.ai/docs" target="_blank" style="color: #7c3aed; text-decoration: underline; font-weight: bold;">{link_text}</a>{doc_text_after}</p>
         </div>
         """, unsafe_allow_html=True)
     
