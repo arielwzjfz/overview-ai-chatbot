@@ -1,0 +1,35 @@
+{
+  "total_files": 112,
+  "total_chunks": 658,
+  "files_processed": 112,
+  "chunks_by_level": {
+    "1": 112,
+    "2": 343,
+    "3": 105,
+    "6": 68,
+    "4": 30
+  },
+  "chunks_by_language": {
+    "English": 580,
+    "Chinese": 61,
+    "Spanish": 17
+  },
+  "chunks_by_category": {
+    "NODE-RED4 Articlesin this category": 60,
+    "Walkthroughs10 Articlesin this category": 33,
+    "Hardware Setup2 Articlesin this category": 16,
+    "Hardware Setup4 Articlesin this category": 32,
+    "Software Setup15 Articlesin this category": 71,
+    "OV80i": 36,
+    "PLC Communication5 Articlesin this category": 58,
+    "Start Here7 Articlesin this category": 53,
+    "Walkthroughs14 Articlesin this category": 69,
+    "Robots": 6,
+    "OV20i": 113,
+    "ELECTRICAL1 Articlein this category": 14,
+    "OVERVIEW SOFTWARE4 Articlesin this category": 50,
+    "TOOLS2 Articlesin this category": 19,
+    "Software Setup1 Articlein this category": 4,
+    "PLC Communication2 Articlesin this category": 24
+  }
+}

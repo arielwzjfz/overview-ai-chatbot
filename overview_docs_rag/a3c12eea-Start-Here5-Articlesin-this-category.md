@@ -1,0 +1,97 @@
+---
+title: "Start Here5 Articlesin this category"
+category: "Start Here5 Articlesin this category"
+language: "English"
+url: "https://docs.overview.ai/docs/start-here-1"
+source_page: "https://docs.overview.ai/docs/ov80i"
+scraped_at: "2025-06-30T17:14:20.709136"
+---
+
+[ ![OV20i](https://cdn.document360.io/logo/863daf20-40fe-49e9-9c91-e3c6cfba55d1/2e22ebf07a24460d8065cff0cb46d3d4-OverviewLogo.png) ](https://www.overview.ai)
+
+  * [Knowledge Base Home](https://docs.overview.ai)
+  * [User Manual](https://docs.overview.ai/docs)
+
+
+
+  * [ __](/v1/en)
+  * English
+
+    * [ English ](/docs/en/start-here-1 "en")
+    * [ Spanish \(Mexico\) ](/docs/es-mx/start-here-1 "es-mx")
+    * [ Chinese \(Simplified, People's Republic of China\) ](/docs/zh-cn/start-here-1 "zh-cn")
+
+
+
+
+__Ask Eddy AI
+
+Contents x
+
+  * [ OV20i  ](start-here)
+  * [ OV80i  ](start-here-1)
+  * [ OV20i \(2.0\)  ](faq)
+
+
+
+Start Here
+
+5 Articles  in this category
+
+
+
+
+  *  __ Print
+
+
+
+
+ __Contents
+
+# Start Here
+
+5 Articles  in this category
+
+* * *
+
+## [Recommended Setup FlowWe recommend exploring our online resources and experimenting with the camera. A good starting point is: Electrical and Communication Basic Navigation Creating your first recipe Creating your first Classification...](/docs/ov80i-recommended-setup-flow)
+
+Updated on : 10 Feb 2025
+
+## [Basic NavigationNote For help connecting to the OV80i software, see Connecting to OV80i Software . Let us talk you through the features you’ll find on every page of the OV80i software.](/docs/basic-navigation-1)
+
+Updated on : 04 Feb 2025
+
+## [Creating Your First RecipeOnce you’ve mounted the camera and connected to the OV80i software, follow the steps below to create your first recipe. From the All Recipes page, click + New Recipe in the top-right corner. The Add A New Recipe modal will a...](/docs/ov80i-creating-your-first-recipe)
+
+Updated on : 07 Mar 2025
+
+## [Creating Your First Classification RecipeOnce you’ve followed the steps in Creating Your First Recipe to configure the Imaging Setup , Template Image and Alignment , and Inspection Setup , follow the steps below to train a Classification model. Classification Block In this section...](/docs/ov80i-creating-your-first-classification-recipe)
+
+Updated on : 07 Mar 2025
+
+## [Creating Your First Segmentation RecipeOnce you’ve followed the steps in Creating Your First Recipe to configure the Imaging Setup , Template Image and Alignment , and Inspection Setup , follow the steps below to train a Segmentation model. Label and Train In this section, you’l...](/docs/ov80i-creating-your-first-segmentation-recipe)
+
+Updated on : 07 Mar 2025
+
+ENTER
+
+ESC
+
+ __
+
+__
+
+Eddy AI, facilitating knowledge discovery through conversational intelligence
+
+Search Limit Exceeded. Please upgrade the plan.
+
+Answer copied\!
+
+__
+
+__ __
+
+No results found
+
+Provide more context or information so that I can better understand and assist you

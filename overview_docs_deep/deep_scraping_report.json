@@ -1,0 +1,31 @@
+{
+  "total_categories": 28,
+  "total_individual_articles": 115,
+  "languages": {
+    "English": 104,
+    "Chinese": 8,
+    "Spanish": 3
+  },
+  "categories": {
+    "OV20i": 16,
+    "Start Here7 Articlesin this category": 10,
+    "Hardware Setup4 Articlesin this category": 6,
+    "Walkthroughs14 Articlesin this category": 15,
+    "Software Setup15 Articlesin this category": 9,
+    "PLC Communication5 Articlesin this category": 8,
+    "Robots": 4,
+    "OV80i": 7,
+    "Hardware Setup2 Articlesin this category": 3,
+    "Walkthroughs10 Articlesin this category": 10,
+    "Software Setup1 Articlein this category": 3,
+    "PLC Communication2 Articlesin this category": 3,
+    "OVERVIEW SOFTWARE4 Articlesin this category": 5,
+    "TOOLS2 Articlesin this category": 5,
+    "ELECTRICAL1 Articlein this category": 4,
+    "NODE-RED4 Articlesin this category": 7
+  },
+  "scraping_timestamp": 1751318493.837868,
+  "base_url": "https://docs.overview.ai",
+  "format": "markdown",
+  "rag_ready": true
+}

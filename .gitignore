@@ -54,10 +54,10 @@ chroma_db/
 .env.production.local
 
 # Documentation chunks (large files)
-overview_docs_chunked/
-overview_docs_deep/
-overview_docs_enhanced/
-overview_docs_rag/
+# Note: overview_docs_chunked/ is needed for Streamlit Cloud deployment
+# overview_docs_deep/
+# overview_docs_enhanced/
+# overview_docs_rag/
 
 # Temporary files
 *.tmp
